@@ -1,0 +1,12 @@
+[project]
+name = "trie.py"
+version = "1.0.0"
+description = "A prefix tree or trie implemented in Python"
+authors = [{name = "Jakob Knauer"}]
+readme = "README.md"
+license = {file = "LICENSE"}
+requires-python = ">=3.11"
+dependencies = []
+
+[project.optional-dependencies]
+test = ["pytest>=8.1.0"]
